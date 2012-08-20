@@ -20,22 +20,25 @@ div.container{
 	min-height:1000px;
 	background-color: #333;
 	width:100%;
+	padding-top: 1px;
 }
 
-div.container div.options{
-	width:1100px;
-	margin:0 auto;
+div.container ul.options{
+	
+	margin:100px auto 0 auto;
+	display: block;
 	
 }
 
- div.options > div{
+ ul.options > li{
 	width:50px;
 	margin-right:150px;
 	border:2px solid #99999a;
 	height:50px;
 	float: left;
 	background-color: gray;
-	border-radius:3px;
+	border-radius:5px;
+	display: block
 }
 
 
