@@ -38,12 +38,20 @@ ul.options > li{
 	background-color: gray;
 	border-radius:5px;
 	display: block;
+	position: relative;
 }
 
  ul.options > li:first-child{
  	margin-left: 150px;
  }
 
+div.container ul.options li ul{
+	display: none;
+	background-image: url('../images/NSTexturedFullScreenBackgroundColor.png');
+	position: absolute;
+	top:110px;
+	
+}
 
 
 
