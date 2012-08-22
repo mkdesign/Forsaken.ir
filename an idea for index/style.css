@@ -20,27 +20,29 @@ div.container{
 	background-image: url('../images/iPadBackgroundTexture-grey.png');
 	min-height:1000px;
 	background-color: #333;
-	width:100%;
 	padding-top: 1px;
 }
 
 div.container ul.options{
+	width:1200px;
 	margin:100px auto 0 auto;
 	display: block;
 }
 
- ul.options > li{
-	width:50px;
+ul.options > li{
+	width:100px;
 	margin-right:150px;
 	border:2px solid #99999a;
-	height:50px;
+	height:100px;
 	float: left;
 	background-color: gray;
 	border-radius:5px;
-	display: block
+	display: block;
 }
 
-
+ ul.options > li:first-child{
+ 	margin-left: 150px;
+ }
 
 
 
