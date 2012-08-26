@@ -24,7 +24,6 @@ div.container{
 }
 
 div.container ul.options{
-	width:1200px;
 	margin:100px auto 0 auto;
 	display: block;
 }
@@ -45,15 +44,18 @@ ul.options > li{
  	margin-left: 150px;
  }
 
-div.container ul.options li ul{
+div.container ul.options li ul.toggle{
 	display: none;
 	background-image: url('../images/NSTexturedFullScreenBackgroundColor.png');
 	position: absolute;
 	top:110px;
-	
+
 }
-
-
+div.test{
+	background-image: url('../images/NSTexturedFullScreenBackgroundColor.png');
+	height: 100px;
+	box-shadow: inset 0px 0px 19px #111;
+}
 
 
 
