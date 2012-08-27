@@ -3,7 +3,9 @@ $(function () {
 	toggleTargets = $('div.container ul.toggle');
 	options.each(function(){
 		$(this).click(function(){
-			alert($(this).index());
+			toggleTargets.eq($(this).index()).animate({
+				height:300
+			},300)
 		});
 	});
 });
