@@ -48,8 +48,8 @@ ul.options > li{
 div.container ul.toggle{
 	margin-top      : 10px;
 	background-image: url('../images/NSTexturedFullScreenBackgroundColor.png');
-	box-shadow      : inset 0 0 18px #000;
-	height      : 100px;
+	box-shadow      : inset 0 0 15px #000;
+	height          : 100px;
 	display         : block;
 }
 
