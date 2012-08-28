@@ -7,8 +7,8 @@ $(function () {
 	var vibrate = function(){
 		toggleContent.each(function(){
 			$(this).animate({
-				rotate:Math.random(-9,9)+'deg',
-				left:Math.random(-3,3),
+				rotate:Math.random(-7,7)+'deg',
+				left:Math.random(-4,4),
 				top:Math.random(-3,3)
 			})
 		})
@@ -19,6 +19,7 @@ $(function () {
 	options.each(function(){
 		var that=this;
 		$(this).click(function(){
+			
 			$(that).animate({
 				'box-shadow' : '0 0 10px #111'
 			},100)

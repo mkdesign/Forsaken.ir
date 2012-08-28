@@ -52,7 +52,7 @@ div.container ul.toggle{
 	height          : 0;
 	display         : none;
 	overflow        : hidden;
-	border          :2px solid #999;
+	border          :2px solid #888;
 	border-right    : none;
 	border-left     :none;
 }
@@ -65,8 +65,8 @@ div.container ul.toggle li{
 	float                : left;
 	margin-right         : 75px;
 	margin-top           : 30px;
-	border               :2px solid #999;
-	-webkit-border-radius: 3px;
+	border               :2px solid #888;
+	-webkit-border-radius: 5px;
 	box-shadow           : 0 0 9px #111;
 	position             : relative;
 }
