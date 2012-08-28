@@ -19,7 +19,7 @@ $(function () {
 	options.each(function(){
 		var that=this;
 		$(this).click(function(){
-			
+			if(toggleTargets.attr('display','none')) alert(1);
 			$(that).animate({
 				'box-shadow' : '0 0 10px #111'
 			},100)
