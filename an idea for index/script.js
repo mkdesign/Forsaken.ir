@@ -33,10 +33,8 @@ $(function () {
 					'box-shadow' : 'none'
 				},100);
 				toggleTargets.eq($(that).index()).animate({
-					height:0,
-					display:'none'
-					
-				},170);
+					height:0
+				},170,toggleTargets.eq($(that).index()).css({display:'none'}));
 			}
 			
 		});
