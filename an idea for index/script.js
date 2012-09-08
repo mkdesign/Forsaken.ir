@@ -29,7 +29,7 @@ $(function () {
 
 		$(this).click(function(){
 
-			if(toggleTargets.css('display') == 'none'){
+			if(toggleTargets.eq($(that).index()).css('display') == 'none'){
 
 				//var VibStart=setInterval(vibrate,90);
 
