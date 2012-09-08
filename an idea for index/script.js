@@ -12,8 +12,8 @@ $(function () {
 
 			$(this).animate({
 
-				rotate : Math.random(-25,25)+'deg',
-				left   : Math.random(-8,8)
+				//rotate : Math.random(-25,25)+'deg',
+				//left   : Math.random(-8,8)
 				
 			});
 		});
@@ -31,7 +31,7 @@ $(function () {
 
 			if(toggleTargets.css('display') == 'none'){
 
-				var VibStart=setInterval(vibrate,55);
+				//var VibStart=setInterval(vibrate,90);
 
 				$(that).animate({
 
@@ -40,11 +40,10 @@ $(function () {
 				},100);
 
 				toggleTargets.eq($(that).index()).animate({
+					display : 'block'
 
-					height : 300
-
-				},170,function(){
-					toggleTargets.eq($(that).index()).css({display:'block'});
+				},0,'linear',function(){
+					toggleTargets.eq($(that).index()).animate({ height : 300 },170)
 				});
 			}
 			else{
@@ -59,8 +58,8 @@ $(function () {
 
 					height : 0
 
-				},170,function(){
-					toggleTargets.eq($(that).index()).css({display:'none'});
+				},170,'linear',function(){
+					toggleTargets.eq($(that).index()).css({ display : 'none' })
 				});
 			}
 			
