@@ -43,7 +43,9 @@ $(function () {
 
 					height : 300
 
-				},170,toggleTargets.eq($(that).index()).css({display:'block'}));
+				},170,function(){
+					toggleTargets.eq($(that).index()).css({display:'block'});
+				});
 			}
 			else{
 
@@ -57,7 +59,9 @@ $(function () {
 
 					height : 0
 
-				},170,toggleTargets.eq($(that).index()).css({display:'none'}));
+				},170,function(){
+					toggleTargets.eq($(that).index()).css({display:'none'});
+				});
 			}
 			
 		});
