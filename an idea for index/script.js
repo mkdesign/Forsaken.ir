@@ -52,7 +52,7 @@ $(function () {
 
 					'box-shadow' : 'none'
 
-				},100);
+				},800);
 
 				toggleTargets.eq($(that).index()).animate({
 
